@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17dc3353-ddeb-4b9d-9ee3-55c9e5a4c923" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index.vue" afterPath="$PROJECT_DIR$/pages/index.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/axios.js" afterPath="$PROJECT_DIR$/plugins/axios.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/index.js" afterPath="$PROJECT_DIR$/store/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/index.vue">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/store/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="708">
+              <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -42,8 +40,13 @@
       <list>
         <option value="$PROJECT_DIR$/nuxt.config.js" />
         <option value="$PROJECT_DIR$/plugins/axios.js" />
-        <option value="$PROJECT_DIR$/store/index.js" />
+        <option value="$PROJECT_DIR$/components/items.vue" />
         <option value="$PROJECT_DIR$/pages/index.vue" />
+        <option value="$PROJECT_DIR$/pages/new.vue" />
+        <option value="$PROJECT_DIR$/pages/ask.vue" />
+        <option value="$PROJECT_DIR$/pages/jobs.vue" />
+        <option value="$PROJECT_DIR$/pages/show.vue" />
+        <option value="$PROJECT_DIR$/store/index.js" />
       </list>
     </option>
   </component>
@@ -100,16 +103,6 @@
               <item name="hackernuxt" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="hackernuxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackernuxt" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="hackernuxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackernuxt" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="store" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -128,6 +121,11 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="standardjs.codestyle.accepted" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -151,12 +149,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509106532988</updated>
-      <workItem from="1509106535113" duration="3674000" />
+      <workItem from="1509106535113" duration="4967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3674000" />
+    <option name="totallyTimeSpent" value="4967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -222,25 +220,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/store/index.js">
+    <entry file="file://$PROJECT_DIR$/components/items.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="58" lean-forward="false" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        <state relative-caret-position="391">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
-            <marker date="1509110692000" expanded="true" signature="65:91" ph="{...}" />
-            <marker date="1509110692000" expanded="true" signature="119:229" ph="{...}" />
-            <marker date="1509110692000" expanded="true" signature="145:170" ph="{...}" />
-            <marker date="1509110692000" expanded="true" signature="198:227" ph="{...}" />
-            <marker date="1509110692000" expanded="true" signature="254:668" ph="{...}" />
-            <marker date="1509110692000" expanded="true" signature="290:666" ph="{...}" />
+            <marker date="1509110914000" expanded="true" signature="9:204" ph="..." />
+            <marker date="1509110914000" expanded="true" signature="32:192" ph="..." />
+            <marker date="1509110914000" expanded="true" signature="62:181" ph="..." />
+            <marker date="1509110914000" expanded="true" signature="116:167" ph="..." />
+            <marker date="1509110914000" expanded="true" signature="214:339" ph="..." />
+            <marker date="1509110914000" expanded="true" signature="266:330" ph="{...}" />
+            <marker date="1509110914000" expanded="true" signature="291:325" ph="[...]" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="69">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <marker date="1509111926000" expanded="true" signature="9:87" ph="..." />
+            <marker date="1509111926000" expanded="true" signature="19:75" ph="..." />
+            <marker date="1509111926000" expanded="true" signature="97:327" ph="..." />
+            <marker date="1509111926000" expanded="true" signature="166:318" ph="{...}" />
+            <marker date="1509111926000" expanded="true" signature="186:209" ph="{&quot;Items&quot;: Items...}" />
+            <marker date="1509111926000" expanded="true" signature="241:312" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/new.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <marker date="1509111926000" expanded="true" signature="9:87" ph="..." />
+            <marker date="1509111926000" expanded="true" signature="19:75" ph="..." />
+            <marker date="1509111926000" expanded="true" signature="97:327" ph="..." />
+            <marker date="1509111926000" expanded="true" signature="166:318" ph="{...}" />
+            <marker date="1509111926000" expanded="true" signature="186:209" ph="{&quot;Items&quot;: Items...}" />
+            <marker date="1509111926000" expanded="true" signature="241:312" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/ask.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <marker date="1509111971000" expanded="true" signature="9:87" ph="..." />
+            <marker date="1509111971000" expanded="true" signature="19:75" ph="..." />
+            <marker date="1509111971000" expanded="true" signature="97:327" ph="..." />
+            <marker date="1509111971000" expanded="true" signature="166:318" ph="{...}" />
+            <marker date="1509111971000" expanded="true" signature="186:209" ph="{&quot;Items&quot;: Items...}" />
+            <marker date="1509111971000" expanded="true" signature="241:312" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/jobs.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <marker date="1509112037000" expanded="true" signature="9:88" ph="..." />
+            <marker date="1509112037000" expanded="true" signature="19:76" ph="..." />
+            <marker date="1509112037000" expanded="true" signature="98:328" ph="..." />
+            <marker date="1509112037000" expanded="true" signature="167:319" ph="{...}" />
+            <marker date="1509112037000" expanded="true" signature="187:210" ph="{&quot;Items&quot;: Items...}" />
+            <marker date="1509112037000" expanded="true" signature="242:313" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/show.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding>
+            <marker date="1509112067000" expanded="true" signature="9:88" ph="..." />
+            <marker date="1509112067000" expanded="true" signature="19:76" ph="..." />
+            <marker date="1509112067000" expanded="true" signature="98:329" ph="..." />
+            <marker date="1509112067000" expanded="true" signature="167:320" ph="{...}" />
+            <marker date="1509112067000" expanded="true" signature="187:210" ph="{&quot;Items&quot;: Items...}" />
+            <marker date="1509112067000" expanded="true" signature="242:314" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
           <folding />
         </state>
       </provider>
