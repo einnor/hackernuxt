@@ -20,7 +20,7 @@ module.exports = {
   /*
   ** Build configuration
   */
-  css: ['tachyons/css/tachyons.min.css', 'tachyons-debug/css/tachyons-debug.min.css'],
+  css: ['tachyons/css/tachyons.min.css', 'tachyons-debug/css/tachyons-debug.min.css', '~/assets/main.css'],
   build: {
     vendor: ['axios']
     /*
