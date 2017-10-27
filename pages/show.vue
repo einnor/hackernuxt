@@ -1,6 +1,5 @@
 <template>
     <div>
-        <h1>Show</h1>
         <items></items>
     </div>
 </template>
