@@ -1,3 +1,3 @@
 <template>
-  <div>Hello World</div>
+  <div class="f1 code">Hello World</div>
 </template>
