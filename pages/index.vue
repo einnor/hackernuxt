@@ -1,3 +1,21 @@
 <template>
-  <div class="f1 code">Hello World</div>
+    <div class="f1 code">
+        Hello World
+        <li v-for="user in users" :key="user.id">
+            {{ user.login }}
+        </li>
+    </div>
 </template>
+
+<script>
+  import axios from '~/plugins/axios'
+
+  export default {
+    asyncData () {
+      return axios.get('users')
+        .then(res => ({
+          users: res.data
+        }))
+    }
+  }
+</script>
