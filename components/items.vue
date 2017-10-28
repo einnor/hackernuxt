@@ -12,7 +12,7 @@
                     </template>
                 </div>
                 <div class="details">
-                    by {{ item.by }}
+                    by <nuxt-link :to="'/user/' + item.by">{{ item.by }}</nuxt-link>
                     <p class="ma0 i f7">{{ item.time | timeSince }} ago</p>
                 </div>
                 <template v-if="item.descendants">
@@ -27,8 +27,10 @@
 
 <script>
   import {mapState} from 'vuex'
+  import NuxtLink from '../.nuxt/components/nuxt-link'
 
   export default {
+    components: {NuxtLink},
     computed: mapState([
       'ids',
       'items'
