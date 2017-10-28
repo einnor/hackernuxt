@@ -17,7 +17,7 @@
                 </div>
                 <template v-if="item.descendants">
                     <div class="comments">
-                        {{ item.descendant }} comments
+                        <nuxt-link :to="'/item/' + item.id">{{ item.descendant }} comments</nuxt-link>
                     </div>
                 </template>
             </li>
@@ -27,10 +27,8 @@
 
 <script>
   import {mapState} from 'vuex'
-  import NuxtLink from '../.nuxt/components/nuxt-link'
 
   export default {
-    components: {NuxtLink},
     computed: mapState([
       'ids',
       'items'
